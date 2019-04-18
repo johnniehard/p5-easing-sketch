@@ -1,0 +1,21 @@
+{
+  "name": "parcel-sandbox",
+  "version": "1.0.0",
+  "description": "Simple Parcel Sandbox",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "d3-ease": "1.0.5",
+    "d3-scale": "3.0.0",
+    "p5": "0.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "@types/d3-ease": "1.0.8",
+    "@types/p5": "0.7.2",
+    "parcel-bundler": "^1.6.1"
+  }
+}
